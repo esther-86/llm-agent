@@ -20,6 +20,9 @@ source .venv/bin/activate
 ## 4. Install `browser-use` in your virtual environment
 ```sh
 uv pip install browser-use
+
+python3.11 -m ensurepip
+python3.11 -m pip install browser-use-0.2.1.zip
 ```
 
 ## 5. Install the required browser (Chromium) for Playwright
